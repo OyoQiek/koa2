@@ -1,12 +1,12 @@
 import { App } from 'vue'
 import { loadElementPlus } from '@/config/useElementPlus'
-import request from '@/utils/request'
+import API from '@/api'
 
 const init = (app: App) => {
   // 加载elementPlus
   loadElementPlus(app)
   // api请求
-  app.config.globalProperties.$api = request
+  app.config.globalProperties.$api = API
 }
 
 export default init

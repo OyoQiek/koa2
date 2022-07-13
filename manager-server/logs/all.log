@@ -1,0 +1,89 @@
+[2022-07-12T17:05:23.453] [INFO] info - ***数据库连接成功***
+[2022-07-12T17:16:40.623] [INFO] info - ***数据库连接成功***
+[2022-07-12T18:00:45.280] [INFO] info - ***数据库连接成功***
+[2022-07-12T18:01:10.385] [INFO] info - ***数据库连接成功***
+[2022-07-12T18:03:44.037] [INFO] info - ***数据库连接成功***
+[2022-07-12T18:04:16.744] [INFO] info - ***数据库连接成功***
+[2022-07-12T19:30:30.331] [INFO] info - ***数据库连接成功***
+[2022-07-12T19:30:50.814] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=123456 get params: {"userName":"admin","userPwd":"123456"}
+[2022-07-12T19:30:50.815] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=123456 post params: {"userName":"admin","userPwd":"123456"}
+[2022-07-12T19:32:32.239] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=123456 get params: {"userName":"admin","userPwd":"123456"}
+[2022-07-12T19:32:32.240] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=123456 post params: {}
+[2022-07-12T19:32:47.831] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=123456 get params: {"userName":"admin","userPwd":"123456"}
+[2022-07-12T19:32:47.832] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=123456 post params: {"userName":"admin","userPwd":"123456"}
+[2022-07-12T19:34:34.091] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=123456 get params: {"userName":"admin","userPwd":"123456"}
+[2022-07-12T19:34:34.092] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=123456 post params: {"userName":"admin","userPwd":"123456"}
+[2022-07-12T19:49:57.939] [INFO] info - http://localhost:8080/api/leave/count get params: {}
+[2022-07-12T19:49:57.939] [INFO] info - http://localhost:8080/api/leave/count post params: {}
+[2022-07-12T19:49:57.941] [INFO] info - http://localhost:8080/api/users/getPermissionList get params: {}
+[2022-07-12T19:49:57.941] [INFO] info - http://localhost:8080/api/users/getPermissionList post params: {}
+[2022-07-12T19:50:05.969] [INFO] info - http://localhost:8080/api/leave/count get params: {}
+[2022-07-12T19:50:05.971] [INFO] info - http://localhost:8080/api/leave/count post params: {}
+[2022-07-12T19:50:05.977] [INFO] info - http://localhost:8080/api/users/getPermissionList get params: {}
+[2022-07-12T19:50:05.977] [INFO] info - http://localhost:8080/api/users/getPermissionList post params: {}
+[2022-07-12T19:58:31.826] [INFO] info - http://localhost:8080/api/leave/count get params: {}
+[2022-07-12T19:58:31.828] [INFO] info - http://localhost:8080/api/leave/count post params: {}
+[2022-07-12T19:58:31.833] [INFO] info - http://localhost:8080/api/users/getPermissionList get params: {}
+[2022-07-12T19:58:31.833] [INFO] info - http://localhost:8080/api/users/getPermissionList post params: {}
+[2022-07-12T19:59:02.150] [INFO] info - http://localhost:8080/api/leave/count get params: {}
+[2022-07-12T19:59:02.151] [INFO] info - http://localhost:8080/api/leave/count post params: {}
+[2022-07-12T19:59:02.169] [INFO] info - http://localhost:8080/api/users/getPermissionList get params: {}
+[2022-07-12T19:59:02.173] [INFO] info - http://localhost:8080/api/users/getPermissionList post params: {}
+[2022-07-12T19:59:04.904] [INFO] info - http://localhost:8080/api/leave/count get params: {}
+[2022-07-12T19:59:04.905] [INFO] info - http://localhost:8080/api/leave/count post params: {}
+[2022-07-12T19:59:04.906] [INFO] info - http://localhost:8080/api/users/getPermissionList get params: {}
+[2022-07-12T19:59:04.906] [INFO] info - http://localhost:8080/api/users/getPermissionList post params: {}
+[2022-07-12T19:59:07.874] [INFO] info - http://localhost:8080/api/leave/count get params: {}
+[2022-07-12T19:59:07.875] [INFO] info - http://localhost:8080/api/leave/count post params: {}
+[2022-07-12T19:59:07.877] [INFO] info - http://localhost:8080/api/users/getPermissionList get params: {}
+[2022-07-12T19:59:07.879] [INFO] info - http://localhost:8080/api/users/getPermissionList post params: {}
+[2022-07-12T19:59:21.061] [INFO] info - http://localhost:8080/api/leave/count get params: {}
+[2022-07-12T19:59:21.062] [INFO] info - http://localhost:8080/api/leave/count post params: {}
+[2022-07-12T19:59:21.064] [INFO] info - http://localhost:8080/api/users/getPermissionList get params: {}
+[2022-07-12T19:59:21.064] [INFO] info - http://localhost:8080/api/users/getPermissionList post params: {}
+[2022-07-12T20:32:19.394] [INFO] info - http://localhost:8080/api/leave/count get params: {}
+[2022-07-12T20:32:19.395] [INFO] info - http://localhost:8080/api/leave/count post params: {}
+[2022-07-12T20:32:19.397] [INFO] info - http://localhost:8080/api/users/getPermissionList get params: {}
+[2022-07-12T20:32:19.397] [INFO] info - http://localhost:8080/api/users/getPermissionList post params: {}
+[2022-07-13T09:30:10.055] [INFO] info - http://localhost:8080/api/leave/count get params: {}
+[2022-07-13T09:30:10.055] [INFO] info - http://localhost:8080/api/leave/count post params: {}
+[2022-07-13T09:30:10.057] [INFO] info - http://localhost:8080/api/users/getPermissionList get params: {}
+[2022-07-13T09:30:10.057] [INFO] info - http://localhost:8080/api/users/getPermissionList post params: {}
+[2022-07-13T10:02:53.450] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=111 get params: {"userName":"admin","userPwd":"111"}
+[2022-07-13T10:02:53.450] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=111 post params: {"userName":"admin","userPwd":"111"}
+[2022-07-13T10:02:58.709] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=123456 get params: {"userName":"admin","userPwd":"123456"}
+[2022-07-13T10:02:58.710] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=123456 post params: {"userName":"admin","userPwd":"123456"}
+[2022-07-13T10:02:58.779] [INFO] info - http://localhost:8080/api/leave/count get params: {}
+[2022-07-13T10:02:58.779] [INFO] info - http://localhost:8080/api/leave/count post params: {}
+[2022-07-13T10:02:59.036] [INFO] info - http://localhost:8080/api/users/getPermissionList get params: {}
+[2022-07-13T10:02:59.037] [INFO] info - http://localhost:8080/api/users/getPermissionList post params: {}
+[2022-07-13T13:41:16.555] [INFO] info - http://localhost:8080/api/leave/count get params: {}
+[2022-07-13T13:41:16.557] [INFO] info - http://localhost:8080/api/leave/count post params: {}
+[2022-07-13T13:41:16.559] [INFO] info - http://localhost:8080/api/users/getPermissionList get params: {}
+[2022-07-13T13:41:16.560] [INFO] info - http://localhost:8080/api/users/getPermissionList post params: {}
+[2022-07-13T19:14:47.259] [INFO] info - ***数据库连接成功***
+[2022-07-13T19:37:25.248] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=123 get params: {"userName":"admin","userPwd":"123"}
+[2022-07-13T19:37:25.249] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=123 post params: {"userName":"admin","userPwd":"123"}
+[2022-07-13T19:37:46.769] [INFO] info - ***数据库连接成功***
+[2022-07-13T19:37:48.532] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=123 get params: {"userName":"admin","userPwd":"123"}
+[2022-07-13T19:37:48.533] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=123 post params: {"userName":"admin","userPwd":"123"}
+[2022-07-13T19:37:55.542] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=123456 get params: {"userName":"admin","userPwd":"123456"}
+[2022-07-13T19:37:55.543] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=123456 post params: {"userName":"admin","userPwd":"123456"}
+[2022-07-13T19:37:55.958] [INFO] info - http://localhost:8080/api/leave/count get params: {}
+[2022-07-13T19:37:55.959] [INFO] info - http://localhost:8080/api/leave/count post params: {}
+[2022-07-13T19:37:55.963] [INFO] info - http://localhost:8080/api/users/getPermissionList get params: {}
+[2022-07-13T19:37:55.964] [INFO] info - http://localhost:8080/api/users/getPermissionList post params: {}
+[2022-07-13T19:51:10.216] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=123456 get params: {"userName":"admin","userPwd":"123456"}
+[2022-07-13T19:51:10.217] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=123456 post params: {"userName":"admin","userPwd":"123456"}
+[2022-07-13T19:51:10.346] [INFO] info - http://localhost:8080/api/leave/count get params: {}
+[2022-07-13T19:51:10.347] [INFO] info - http://localhost:8080/api/leave/count post params: {}
+[2022-07-13T19:51:10.350] [INFO] info - http://localhost:8080/api/users/getPermissionList get params: {}
+[2022-07-13T19:51:10.351] [INFO] info - http://localhost:8080/api/users/getPermissionList post params: {}
+[2022-07-13T19:51:26.091] [INFO] info - ***数据库连接成功***
+[2022-07-13T19:51:29.536] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=123456 get params: {"userName":"admin","userPwd":"123456"}
+[2022-07-13T19:51:29.537] [INFO] info - http://localhost:8080/api/users/login?userName=admin&userPwd=123456 post params: {"userName":"admin","userPwd":"123456"}
+[2022-07-13T19:51:29.719] [INFO] info - http://localhost:8080/api/leave/count get params: {}
+[2022-07-13T19:51:29.720] [INFO] info - http://localhost:8080/api/leave/count post params: {}
+[2022-07-13T19:51:29.724] [INFO] info - http://localhost:8080/api/users/getPermissionList get params: {}
+[2022-07-13T19:51:29.725] [INFO] info - http://localhost:8080/api/users/getPermissionList post params: {}
+[2022-07-13T19:55:16.292] [INFO] info - ***数据库连接成功***

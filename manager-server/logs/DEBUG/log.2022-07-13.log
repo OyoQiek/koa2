@@ -1,0 +1,59 @@
+[2022-07-13T10:02:58.716] [DEBUG] debug - {
+  deptId: [],
+  state: 1,
+  role: 1,
+  roleList: [],
+  createTime: 2022-07-12T11:30:30.270Z,
+  lastLoginTime: 2022-07-12T11:30:30.270Z,
+  _id: new ObjectId("62cd5c40ac28d10f96727584"),
+  userName: 'admin',
+  userPwd: '123456'
+}
+[2022-07-13T19:37:55.560] [DEBUG] debug - {
+  _id: new ObjectId("62cd5c40ac28d10f96727584"),
+  userName: 'admin',
+  userPwd: '123456',
+  createTime: 2021-01-17T00:00:00.000Z,
+  deptId: [],
+  job: '前端架构师',
+  lastLoginTime: 2021-01-17T00:00:00.000Z,
+  mobile: '13788888888',
+  role: 0,
+  roleList: [],
+  sex: 0,
+  state: 1,
+  userEmail: 'admin@imooc.com',
+  userId: 1000001,
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYyY2Q1YzQwYWMyOGQxMGY5NjcyNzU4NCIsInVzZXJOYW1lIjoiYWRtaW4iLCJ1c2VyUHdkIjoiMTIzNDU2IiwiY3JlYXRlVGltZSI6IjIwMjEtMDEtMTdUMDA6MDA6MDAuMDAwWiIsImRlcHRJZCI6W10sImpvYiI6IuWJjeerr-aetuaehOW4iCIsImxhc3RMb2dpblRpbWUiOiIyMDIxLTAxLTE3VDAwOjAwOjAwLjAwMFoiLCJtb2JpbGUiOiIxMzc4ODg4ODg4OCIsInJvbGUiOjAsInJvbGVMaXN0IjpbXSwic2V4IjowLCJzdGF0ZSI6MSwidXNlckVtYWlsIjoiYWRtaW5AaW1vb2MuY29tIiwidXNlcklkIjoxMDAwMDAxfSwiaWF0IjoxNjU3NzEyMjc1LCJleHAiOjE2NTc3MTIzMDV9.TML2N1RbLpslLU7kJqDfsA0TR6U8z6-wEz-E2MUH-8Q'
+}
+[2022-07-13T19:51:10.223] [DEBUG] debug - {
+  _id: new ObjectId("62cd5c40ac28d10f96727584"),
+  userName: 'admin',
+  userPwd: '123456',
+  createTime: 2021-01-17T00:00:00.000Z,
+  deptId: [],
+  job: '前端架构师',
+  lastLoginTime: 2021-01-17T00:00:00.000Z,
+  mobile: '13788888888',
+  role: 0,
+  roleList: [],
+  sex: 0,
+  state: 1,
+  userEmail: 'admin@imooc.com',
+  userId: 1000001,
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYyY2Q1YzQwYWMyOGQxMGY5NjcyNzU4NCIsInVzZXJOYW1lIjoiYWRtaW4iLCJ1c2VyUHdkIjoiMTIzNDU2IiwiY3JlYXRlVGltZSI6IjIwMjEtMDEtMTdUMDA6MDA6MDAuMDAwWiIsImRlcHRJZCI6W10sImpvYiI6IuWJjeerr-aetuaehOW4iCIsImxhc3RMb2dpblRpbWUiOiIyMDIxLTAxLTE3VDAwOjAwOjAwLjAwMFoiLCJtb2JpbGUiOiIxMzc4ODg4ODg4OCIsInJvbGUiOjAsInJvbGVMaXN0IjpbXSwic2V4IjowLCJzdGF0ZSI6MSwidXNlckVtYWlsIjoiYWRtaW5AaW1vb2MuY29tIiwidXNlcklkIjoxMDAwMDAxfSwiaWF0IjoxNjU3NzEzMDcwLCJleHAiOjE2NTc3MTMxMDB9.AStR2Iagtk9jug_N_1Zl42waxKdy-O8eC9V9tBb6MMI'
+}
+[2022-07-13T19:51:29.601] [DEBUG] debug - {
+  _id: new ObjectId("62cd5c40ac28d10f96727584"),
+  userName: 'admin',
+  deptId: [],
+  job: '前端架构师',
+  mobile: '13788888888',
+  role: 0,
+  roleList: [],
+  sex: 0,
+  state: 1,
+  userEmail: 'admin@imooc.com',
+  userId: 1000001,
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYyY2Q1YzQwYWMyOGQxMGY5NjcyNzU4NCIsInVzZXJOYW1lIjoiYWRtaW4iLCJkZXB0SWQiOltdLCJqb2IiOiLliY3nq6_mnrbmnoTluIgiLCJtb2JpbGUiOiIxMzc4ODg4ODg4OCIsInJvbGUiOjAsInJvbGVMaXN0IjpbXSwic2V4IjowLCJzdGF0ZSI6MSwidXNlckVtYWlsIjoiYWRtaW5AaW1vb2MuY29tIiwidXNlcklkIjoxMDAwMDAxfSwiaWF0IjoxNjU3NzEzMDg5LCJleHAiOjE2NTc3MjAyODl9.jwZ7_jgeJ3zhQnBlYcLGr_CLAGLk-iOAez1AmrKT9Z4'
+}

@@ -39,12 +39,13 @@ module.exports = {
       msg
     }
   },
-  fail (msg = '', code = CODE.BUSINESS_ERROR) {
+  fail (msg = '', data = null, code = CODE.BUSINESS_ERROR) {
     logger.error(msg)
     return {
       code,
       data,
       msg
     }
-  }
+  },
+  CODE
 }

@@ -5,6 +5,7 @@ import axios from 'axios'
 import router from '@/router/index'
 import config from '@/config/index'
 import { ElMessage } from 'element-plus'
+import storage from './storage'
 
 // 创建axios实例对象，添加全局配置
 const service = axios.create({
@@ -16,7 +17,8 @@ const service = axios.create({
 service.interceptors.request.use((req) => {
   // todo
   const headers = req.headers as any
-  if (headers.Authorization) headers.Authorization = 'name'
+  const { token } = storage.getItem('userInfo')
+  if (headers.Authorization) headers.Authorization = 'name' + token
   return req
 })
 
@@ -25,7 +27,7 @@ service.interceptors.response.use((res) => {
   const { code, data, msg } = res.data
   if (code === 200) {
     return data
-  } else if (code === 40001) {
+  } else if (code === 50001) {
     // 未登录或token失效
     ElMessage.error(msg)
     setTimeout(() => {

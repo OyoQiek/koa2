@@ -6,12 +6,16 @@ const onerror = require('koa-onerror')
 const bodyparser = require('koa-bodyparser')
 // const logger = require('koa-logger')
 const logger = require('./utils/log4j')
+const router = require('koa-router')()
+const koajwt = require('koa-jwt')
 
-const index = require('./routes/index')
 const users = require('./routes/users')
+const util = require('./utils/util')
 
 // error handler
 onerror(app)
+
+require('./config/db')
 
 // middlewares
 app.use(bodyparser({
@@ -27,17 +31,26 @@ app.use(views(__dirname + '/views', {
 
 // logger
 app.use(async (ctx, next) => {
-  const start = new Date()
-  await next()
-  logger.debug('log output')
-  logger.error('这是个错误')
-  const ms = new Date() - start
-  console.log(`${ctx.method} ${ctx.url} - ${ms}ms`)
+  logger.info(`${ctx.request.URL} get params: ${JSON.stringify(ctx.request.query)}`)
+  logger.info(`${ctx.request.URL} post params: ${JSON.stringify(ctx.request.body)}`)
+  await next().catch(err => {
+    if (err.status == '401') {
+      ctx.body = util.fail('Token认证失败', util.CODE.AUTH_ERROR)
+    } else {
+      throw err
+    }
+  })
 })
 
+app.use(koajwt({ secret: 'koa2-study' }).unless({
+  path: ['/api/users/login']
+}))
+
 // routes
-app.use(index.routes(), index.allowedMethods())
-app.use(users.routes(), users.allowedMethods())
+router.prefix('/api')
+router.use(users.routes(), users.allowedMethods())
+
+app.use(router.routes(), router.allowedMethods())
 
 // error-handling
 app.on('error', (err, ctx) => {
